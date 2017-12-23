@@ -11,7 +11,7 @@ It is written using NodeJs and NPM ecosystem.
 ◈ [Db.JS](https://github.com/KishanV/Json-to-Cassandra/blob/master/db.js) Main app entry file.</br>
 ◈ [Package.JSON](https://github.com/KishanV/Json-to-Cassandra/blob/master/package.json)</br>
 
-### Example (Javascript & jQuery)
+### Example :
 
 ```json
 {
