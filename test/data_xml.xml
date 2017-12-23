@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply xmlns="urn: ietf: params: xml: ns: netconf: base: 1.0" message-id="34">
+   <data>
+      <cm xmlns="urn: sanctum: params: xml: ns: yang: cm">
+         <docsis>
+            <production>
+               <hardware-revision>132</hardware-revision>
+               <serial>D14C</serial>
+               <vendor>Intel Corporation</vendor>
+               <modem-lan-ip>192.168.100.1</modem-lan-ip>
+               <modem-lan-mask>255.255.255.0</modem-lan-mask>
+               <rf-mac-address>00-50-F1-12-D1-4C</rf-mac-address>
+               <lan-mac-address>00-50-F1-10-D1-4C</lan-mac-address>
+               <model-name>16 - BOARD_CONFIG_PUMA6_MG_24DS_MXL267</model-name>
+               <software-version>NA</software-version>
+            </production>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>523.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-44.626 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.494</magc>
+               <fagc>0.844</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.67e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7044.621 Hz</carrier-offset>
+               <timing-offset>-17.45 ppm</timing-offset>
+               <burst-counter>86</burst-counter>
+               <reported-power>1.2000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>411.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-44.626 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.498</magc>
+               <fagc>0.855</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>1.01e-06</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>5674.549 Hz</carrier-offset>
+               <timing-offset>-17.49 ppm</timing-offset>
+               <burst-counter>126</burst-counter>
+               <reported-power>1.0000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>419.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.506</magc>
+               <fagc>0.855</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>9.65e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6543.624 Hz</carrier-offset>
+               <timing-offset>-17.48 ppm</timing-offset>
+               <burst-counter>123</burst-counter>
+               <reported-power>0.8000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>427.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.501</magc>
+               <fagc>0.854</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.35e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6390.258 Hz</carrier-offset>
+               <timing-offset>-17.48 ppm</timing-offset>
+               <burst-counter>54</burst-counter>
+               <reported-power>0.5000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>435.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-44.626 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.499</magc>
+               <fagc>0.854</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>4.12e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6185.770 Hz</carrier-offset>
+               <timing-offset>-17.51 ppm</timing-offset>
+               <burst-counter>141</burst-counter>
+               <reported-power>0.3000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>443.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.496</magc>
+               <fagc>0.857</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>1.08e-06</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6144.872 Hz</carrier-offset>
+               <timing-offset>-17.46 ppm</timing-offset>
+               <burst-counter>169</burst-counter>
+               <reported-power>-0.4000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>451.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-44.626 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.500</magc>
+               <fagc>0.852</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>3.69e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6032.404 Hz</carrier-offset>
+               <timing-offset>-17.47 ppm</timing-offset>
+               <burst-counter>159</burst-counter>
+               <reported-power>-1.0000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>459.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.498</magc>
+               <fagc>0.852</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>3.83e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6993.499 Hz</carrier-offset>
+               <timing-offset>-17.50 ppm</timing-offset>
+               <burst-counter>121</burst-counter>
+               <reported-power>-1.0000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>467.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.490</magc>
+               <fagc>0.850</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>4.08e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>5858.588 Hz</carrier-offset>
+               <timing-offset>-17.46 ppm</timing-offset>
+               <burst-counter>100</burst-counter>
+               <reported-power>-0.6000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>475.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.494</magc>
+               <fagc>0.846</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.28e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>5746.120 Hz</carrier-offset>
+               <timing-offset>-17.56 ppm</timing-offset>
+               <burst-counter>109</burst-counter>
+               <reported-power>-0.4000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>483.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.499</magc>
+               <fagc>0.846</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.71e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>5510.958 Hz</carrier-offset>
+               <timing-offset>-17.46 ppm</timing-offset>
+               <burst-counter>165</burst-counter>
+               <reported-power>0.0000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>491.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.501</magc>
+               <fagc>0.836</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>2.66e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6461.829 Hz</carrier-offset>
+               <timing-offset>-17.45 ppm</timing-offset>
+               <burst-counter>76</burst-counter>
+               <reported-power>-0.1000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>499.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.496</magc>
+               <fagc>0.842</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>7.85e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>6318.687 Hz</carrier-offset>
+               <timing-offset>-17.51 ppm</timing-offset>
+               <burst-counter>142</burst-counter>
+               <reported-power>0.4000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>507.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.489</magc>
+               <fagc>0.844</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>7.00e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7290.006 Hz</carrier-offset>
+               <timing-offset>-17.51 ppm</timing-offset>
+               <burst-counter>85</burst-counter>
+               <reported-power>0.8000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>515.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.494</magc>
+               <fagc>0.840</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.91e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7167.313 Hz</carrier-offset>
+               <timing-offset>-17.51 ppm</timing-offset>
+               <burst-counter>145</burst-counter>
+               <reported-power>1.3000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>531.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.503</magc>
+               <fagc>0.836</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.80e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7801.227 Hz</carrier-offset>
+               <timing-offset>-17.42 ppm</timing-offset>
+               <burst-counter>127</burst-counter>
+               <reported-power>1.3000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>539.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.498</magc>
+               <fagc>0.842</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>6.08e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7668.310 Hz</carrier-offset>
+               <timing-offset>-17.46 ppm</timing-offset>
+               <burst-counter>149</burst-counter>
+               <reported-power>1.0000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>547.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.499</magc>
+               <fagc>0.846</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.41e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7617.188 Hz</carrier-offset>
+               <timing-offset>-17.48 ppm</timing-offset>
+               <burst-counter>175</burst-counter>
+               <reported-power>0.8000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>555.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-44.626 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.497</magc>
+               <fagc>0.844</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.73e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7627.412 Hz</carrier-offset>
+               <timing-offset>-17.48 ppm</timing-offset>
+               <burst-counter>176</burst-counter>
+               <reported-power>0.5000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>563.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.499</magc>
+               <fagc>0.844</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>6.65e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7453.597 Hz</carrier-offset>
+               <timing-offset>-17.48 ppm</timing-offset>
+               <burst-counter>119</burst-counter>
+               <reported-power>0.3000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>571.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.499</magc>
+               <fagc>0.840</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>5.97e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>8353.346 Hz</carrier-offset>
+               <timing-offset>-17.53 ppm</timing-offset>
+               <burst-counter>85</burst-counter>
+               <reported-power>0.0000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>579.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.504</magc>
+               <fagc>0.844</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>2.79e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>8107.959 Hz</carrier-offset>
+               <timing-offset>-17.55 ppm</timing-offset>
+               <burst-counter>25</burst-counter>
+               <reported-power>-0.1000 dBmv</reported-power>
+            </phystatus>
+            <phystatus>
+               <enabled>YES</enabled>
+               <frequency>587.000000 MHz</frequency>
+               <qam-mode>256 QAM</qam-mode>
+               <annex>ANNEX-A (Euro)</annex>
+               <mse>-43.377 dB</mse>
+               <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+               <magc>1.498</magc>
+               <fagc>0.848</fagc>
+               <annex>I=12, J=17</annex>
+               <cw-error-rate>4.49e-07</cw-error-rate>
+               <qam-lock>YES</qam-lock>
+               <fec-sync>YES</fec-sync>
+               <mpeg-sync>YES</mpeg-sync>
+               <carrier-offset>7964.818 Hz</carrier-offset>
+               <timing-offset>-17.46 ppm</timing-offset>
+               <burst-counter>80</burst-counter>
+               <reported-power>-0.2000 dBmv</reported-power>
+            </phystatus>
+            <cpe-list>
+               <mac-address>f8:16:54:f3:67:4a</mac-address>
+               <ip-address>192.168.2.10</ip-address>
+               <host-name>sanctum-PC</host-name>
+            </cpe-list>
+            <cpe-list>
+               <mac-address>ac:5f:3e:02:e9:07</mac-address>
+               <ip-address>192.168.2.11</ip-address>
+               <host-name>android-7f7daee2b01ea942</host-name>
+            </cpe-list>
+            <cpe-list>
+               <mac-address>20:47:47:c4:84:49</mac-address>
+               <ip-address>192.168.2.200</ip-address>
+               <host-name>ubuntu</host-name>
+            </cpe-list>
+            <cpe-list>
+               <mac-address>4c:34:88:11:14:8f</mac-address>
+               <ip-address>192.168.2.228</ip-address>
+               <host-name>ubuntu</host-name>
+            </cpe-list>
+         </docsis>
+         <version>
+            <image-name>dgwsdk_5.0.0.41-161117_ubfi.img</image-name>
+            <image-version>5.0.0.41</image-version>
+            <image-date>20161117110539</image-date>
+         </version>
+         <system>
+            <pp>
+               <devs>
+                  <rx-unicast-packets>81831</rx-unicast-packets>
+                  <rx-broadcast-packets>0</rx-broadcast-packets>
+                  <rx-multicast-packets>0</rx-multicast-packets>
+                  <rx-bytes>90176895</rx-bytes>
+                  <rx-discards>0</rx-discards>
+                  <tx-unicast-packets>54642</tx-unicast-packets>
+                  <tx-broadcast-packets>0</tx-broadcast-packets>
+                  <tx-multicast-packets>0</tx-multicast-packets>
+                  <tx-bytes>5464435</tx-bytes>
+                  <tx-errors>0</tx-errors>
+                  <tx-discards>0</tx-discards>
+               </devs>
+            </pp>
+         </system>
+         <wifi>
+            <access-point>
+               <ssid>SANCTUM_21_2</ssid>
+               <frequency>5.745 GHz</frequency>
+               <mac-address>00:03:7F:44:69:CB</mac-address>
+               <bit-rate>216.7 Mb/s</bit-rate>
+               <noise>-95 dBm</noise>
+            </access-point>
+            <access-point>
+               <ssid>SANCTUM_21_5</ssid>
+               <frequency>5.2 GHz</frequency>
+               <mac-address>00:03:7F:40:0C:51</mac-address>
+               <bit-rate>216.7 Mb/s</bit-rate>
+               <noise>-95 dBm</noise>
+            </access-point>
+            <access-point>
+               <ssid>SANCTUM</ssid>
+               <frequency>5.745 GHz</frequency>
+               <mac-address>02:03:7F:44:69:CB</mac-address>
+               <bit-rate>216.7 Mb/s</bit-rate>
+               <noise>-95 dBm</noise>
+            </access-point>
+            <neighbor>
+               <mac-address>00:03:7F:40:0C:51</mac-address>
+               <ssid>SANCTUM_21_5</ssid>
+               <frequency>5.2 GHz</frequency>
+               <signal>-9 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>3C:7A:8A:F7:87:C6</mac-address>
+               <ssid>ARRIS-87C2-5G</ssid>
+               <frequency>5.24 GHz</frequency>
+               <signal>-38 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>E4:3E:D7:7C:76:B2</mac-address>
+               <ssid>OpenWrt_A018059-5G</ssid>
+               <frequency>5.58 GHz</frequency>
+               <signal>-36 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>00:34:56:78:3F:3F</mac-address>
+               <ssid>SANCTUM_5G</ssid>
+               <frequency>5.2 GHz</frequency>
+               <signal>-60 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>BE:4D:FB:AD:5A:F0</mac-address>
+               <ssid>UPC5D5AF0</ssid>
+               <frequency>5.5 GHz</frequency>
+               <signal>-40 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>E4:3E:D7:7C:76:B1</mac-address>
+               <ssid>OpenWrt_A018059-2G</ssid>
+               <frequency>2.437 GHz</frequency>
+               <signal>-51 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>3C:7A:8A:F7:87:C0</mac-address>
+               <ssid>ARRIS-87C2</ssid>
+               <frequency>2.412 GHz</frequency>
+               <signal>-35 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>3C:7A:8A:F7:87:C6</mac-address>
+               <ssid>ARRIS-87C2-5G</ssid>
+               <frequency>5.24 GHz</frequency>
+               <signal>-41 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>00:03:7F:44:69:CB</mac-address>
+               <ssid>SANCTUM_21_2</ssid>
+               <frequency>5.745 GHz</frequency>
+               <signal>-10 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>02:03:7F:44:69:CB</mac-address>
+               <ssid>SANCTUM</ssid>
+               <frequency>5.745 GHz</frequency>
+               <signal>-7 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>E4:3E:D7:7C:76:B2</mac-address>
+               <ssid>OpenWrt_A018059-5G</ssid>
+               <frequency>5.58 GHz</frequency>
+               <signal>-37 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>64:AE:0C:EB:3D:F0</mac-address>
+               <ssid>Infocognitio</ssid>
+               <frequency>2.437 GHz</frequency>
+               <signal>-85 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>00:34:56:78:3F:3F</mac-address>
+               <ssid>SANCTUM_5G</ssid>
+               <frequency>5.2 GHz</frequency>
+               <signal>-64 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>00:03:7F:12:BB:BB</mac-address>
+               <ssid>Sanctum_IOT_5G</ssid>
+               <frequency>2.412 GHz</frequency>
+               <signal>-57 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>B8:A3:86:61:69:F8</mac-address>
+               <ssid>Sanctum Networks</ssid>
+               <frequency>2.422 GHz</frequency>
+               <signal>-36 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>C8:D3:A3:BE:9E:10</mac-address>
+               <ssid>ONAM</ssid>
+               <frequency>2.412 GHz</frequency>
+               <signal>-85 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>6C:19:8F:D6:3E:2A</mac-address>
+               <ssid>airtel adcanopus</ssid>
+               <frequency>2.412 GHz</frequency>
+               <signal>-87 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>F8:1A:67:44:FF:6A</mac-address>
+               <ssid>Singh_1990</ssid>
+               <frequency>2.437 GHz</frequency>
+               <signal>-70 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>EC:B1:D7:D3:22:87</mac-address>
+               <ssid>HP-Print-87-Officejet Pro 6830</ssid>
+               <frequency>2.437 GHz</frequency>
+               <signal>-52 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>BC:4D:FB:AD:5A:F8</mac-address>
+               <ssid>UPC2D5AF8</ssid>
+               <frequency>2.462 GHz</frequency>
+               <signal>-38 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>C8:3A:35:1E:F7:B0</mac-address>
+               <ssid>Jagadish</ssid>
+               <frequency>2.437 GHz</frequency>
+               <signal>-83 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>C8:D3:A3:51:46:7C</mac-address>
+               <ssid>Hathway ADCANOPUS</ssid>
+               <frequency>2.462 GHz</frequency>
+               <signal>-81 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>EC:22:80:9C:13:88</mac-address>
+               <ssid>Axis_WIFI</ssid>
+               <frequency>2.427 GHz</frequency>
+               <signal>-81 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>E8:CC:18:AA:21:0A</mac-address>
+               <ssid>D-Link</ssid>
+               <frequency>2.462 GHz</frequency>
+               <signal>-84 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>BE:4D:FB:AD:5A:F0</mac-address>
+               <ssid>UPC5D5AF0</ssid>
+               <frequency>5.5 GHz</frequency>
+               <signal>-37 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>B8:C1:A2:18:6E:44</mac-address>
+               <ssid>Free_WiFi</ssid>
+               <frequency>2.442 GHz</frequency>
+               <signal>-84 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>00:90:4C:C5:12:38</mac-address>
+               <ssid>Lenovo TAB S8</ssid>
+               <frequency>2.437 GHz</frequency>
+               <signal>-48 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>00:03:7F:40:0C:51</mac-address>
+               <ssid>SANCTUM_21_5</ssid>
+               <frequency>5.2 GHz</frequency>
+               <signal>-11 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>3C:7A:8A:F7:87:C6</mac-address>
+               <ssid>ARRIS-87C2-5G</ssid>
+               <frequency>5.24 GHz</frequency>
+               <signal>-38 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>E4:3E:D7:7C:76:B2</mac-address>
+               <ssid>OpenWrt_A018059-5G</ssid>
+               <frequency>5.58 GHz</frequency>
+               <signal>-36 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>00:34:56:78:3F:3F</mac-address>
+               <ssid>SANCTUM_5G</ssid>
+               <frequency>5.2 GHz</frequency>
+               <signal>-62 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <neighbor>
+               <mac-address>BE:4D:FB:AD:5A:F0</mac-address>
+               <ssid>UPC5D5AF0</ssid>
+               <frequency>5.5 GHz</frequency>
+               <signal>-39 dBm</signal>
+               <noise>-95 dBm</noise>
+            </neighbor>
+            <wifi-radio-stats>
+               <wifi-eth-name>wifi0</wifi-eth-name>
+               <mac-ap>00:03:7F:44:69:CB</mac-ap>
+               <tx-data-pkts>0</tx-data-pkts>
+               <tx-data-bytes>0</tx-data-bytes>
+               <rx-data-pkts>1446</rx-data-pkts>
+               <rx-data-bytes>102386</rx-data-bytes>
+               <tx-uni-data-pkts>0</tx-uni-data-pkts>
+               <tx-mul-broad-data-pkts>0</tx-mul-broad-data-pkts>
+               <channel-utilization>&amp;lt;DISABLED&amp;gt;</channel-utilization>
+               <tx-beacon-frame>1582195</tx-beacon-frame>
+               <tx-mgmt-frames>1592255</tx-mgmt-frames>
+               <rx-mgmt-frames>31310</rx-mgmt-frames>
+               <rx-rssi>43</rx-rssi>
+               <rx-phy-errors>1336</rx-phy-errors>
+               <rx-crc-errors>83639</rx-crc-errors>
+               <rx-mic-errors>0</rx-mic-errors>
+               <tx-decrypt-errors>0</tx-decrypt-errors>
+               <rx-errors>0</rx-errors>
+               <tx-failures>294</tx-failures>
+               <throughput-kbps>&amp;lt;DISABLED&amp;gt;</throughput-kbps>
+               <pkt-error-rate>&amp;lt;DISABLED&amp;gt;</pkt-error-rate>
+               <total-pkt-error-rate>0</total-pkt-error-rate>
+            </wifi-radio-stats>
+            <wifi-vap-stats>
+               <ath-name>ath0</ath-name>
+               <mac-ap>00:03:7F:44:69:CB</mac-ap>
+               <tx-data-pkts>0</tx-data-pkts>
+               <tx-data-bytes>0</tx-data-bytes>
+               <rx-data-pkts>1446</rx-data-pkts>
+               <rx-data-bytes>102386</rx-data-bytes>
+               <tx-uni-data-pkts>0</tx-uni-data-pkts>
+               <rx-uni-data-pkts>1436</rx-uni-data-pkts>
+               <tx-mul-broad-data-pkts>0</tx-mul-broad-data-pkts>
+               <rx-mul-broad-data-pkts>10</rx-mul-broad-data-pkts>
+               <avg-tx-rate-kbps>0</avg-tx-rate-kbps>
+               <avg-rx-rate-kbps>24697</avg-rx-rate-kbps>
+               <pkts-drop>292</pkts-drop>
+               <pkts-error>292</pkts-error>
+               <rx-error>0</rx-error>
+               <rx-dropped>0</rx-dropped>
+               <tx-failures>292</tx-failures>
+               <tx-dropped>292</tx-dropped>
+               <host-discard>0</host-discard>
+               <rx-MIC-errors>0</rx-MIC-errors>
+               <last-tx-rate-uni-pkts>0</last-tx-rate-uni-pkts>
+               <last-tx-rate-uni-pkts-mcs>0</last-tx-rate-uni-pkts-mcs>
+               <last-tx-rate-multi-pkts>0</last-tx-rate-multi-pkts>
+            </wifi-vap-stats>
+            <wifi-device-stats>
+               <mac-address>ac:5f:3e:02:e9:07</mac-address>
+               <mac-ap>00:03:7F:44:69:CB</mac-ap>
+               <tx-data-pkts>0</tx-data-pkts>
+               <tx-data-bytes>0</tx-data-bytes>
+               <rx-data-pkts>1446</rx-data-pkts>
+               <rx-data-bytes>102386</rx-data-bytes>
+               <tx-uni-data-pkts>452</tx-uni-data-pkts>
+               <avg-tx-rate-kbps>0</avg-tx-rate-kbps>
+               <avg-rx-rate-kbps>24697</avg-rx-rate-kbps>
+               <last-tx-rate>0</last-tx-rate>
+               <last-rx-rate>0</last-rx-rate>
+               <rx-mic-errors>0</rx-mic-errors>
+               <rx-decrypt-errors>0</rx-decrypt-errors>
+               <rx-errors>0</rx-errors>
+               <pkts-queued>0</pkts-queued>
+               <host-discard>0</host-discard>
+               <tx-failures>0</tx-failures>
+               <rx-rssi>34</rx-rssi>
+            </wifi-device-stats>
+            <wifi-vap-stats>
+               <ath-name>ath2</ath-name>
+               <mac-ap>02:03:7F:44:69:CB</mac-ap>
+               <tx-data-pkts>0</tx-data-pkts>
+               <tx-data-bytes>0</tx-data-bytes>
+               <rx-data-pkts>0</rx-data-pkts>
+               <rx-data-bytes>0</rx-data-bytes>
+               <tx-uni-data-pkts>0</tx-uni-data-pkts>
+               <rx-uni-data-pkts>0</rx-uni-data-pkts>
+               <tx-mul-broad-data-pkts>0</tx-mul-broad-data-pkts>
+               <rx-mul-broad-data-pkts>0</rx-mul-broad-data-pkts>
+               <avg-tx-rate-kbps>&amp;lt;NO STA&amp;gt;</avg-tx-rate-kbps>
+               <avg-rx-rate-kbps>&amp;lt;NO STA&amp;gt;</avg-rx-rate-kbps>
+               <pkts-drop>2</pkts-drop>
+               <pkts-error>2</pkts-error>
+               <rx-error>0</rx-error>
+               <rx-dropped>0</rx-dropped>
+               <tx-failures>2</tx-failures>
+               <tx-dropped>2</tx-dropped>
+               <host-discard>0</host-discard>
+               <rx-MIC-errors>0</rx-MIC-errors>
+               <last-tx-rate-uni-pkts>0</last-tx-rate-uni-pkts>
+               <last-tx-rate-uni-pkts-mcs>0</last-tx-rate-uni-pkts-mcs>
+               <last-tx-rate-multi-pkts>0</last-tx-rate-multi-pkts>
+            </wifi-vap-stats>
+            <wifi-radio-stats>
+               <wifi-eth-name>wifi1</wifi-eth-name>
+               <mac-ap>00:03:7F:40:0C:51</mac-ap>
+               <tx-data-pkts>0</tx-data-pkts>
+               <tx-data-bytes>0</tx-data-bytes>
+               <rx-data-pkts>0</rx-data-pkts>
+               <rx-data-bytes>0</rx-data-bytes>
+               <tx-uni-data-pkts>0</tx-uni-data-pkts>
+               <tx-mul-broad-data-pkts>0</tx-mul-broad-data-pkts>
+               <channel-utilization>&amp;lt;DISABLED&amp;gt;</channel-utilization>
+               <tx-beacon-frame>1647884</tx-beacon-frame>
+               <tx-mgmt-frames>1659564</tx-mgmt-frames>
+               <rx-mgmt-frames>1790603</rx-mgmt-frames>
+               <rx-rssi>31</rx-rssi>
+               <rx-phy-errors>9675</rx-phy-errors>
+               <rx-crc-errors>57544</rx-crc-errors>
+               <rx-mic-errors>0</rx-mic-errors>
+               <tx-decrypt-errors>0</tx-decrypt-errors>
+               <rx-errors>0</rx-errors>
+               <tx-failures>427</tx-failures>
+               <throughput-kbps>&amp;lt;DISABLED&amp;gt;</throughput-kbps>
+               <pkt-error-rate>&amp;lt;DISABLED&amp;gt;</pkt-error-rate>
+               <total-pkt-error-rate>0</total-pkt-error-rate>
+            </wifi-radio-stats>
+            <wifi-vap-stats>
+               <ath-name>ath1</ath-name>
+               <mac-ap>00:03:7F:40:0C:51</mac-ap>
+               <tx-data-pkts>0</tx-data-pkts>
+               <tx-data-bytes>0</tx-data-bytes>
+               <rx-data-pkts>0</rx-data-pkts>
+               <rx-data-bytes>0</rx-data-bytes>
+               <tx-uni-data-pkts>0</tx-uni-data-pkts>
+               <rx-uni-data-pkts>0</rx-uni-data-pkts>
+               <tx-mul-broad-data-pkts>0</tx-mul-broad-data-pkts>
+               <rx-mul-broad-data-pkts>0</rx-mul-broad-data-pkts>
+               <avg-tx-rate-kbps>&amp;lt;NO STA&amp;gt;</avg-tx-rate-kbps>
+               <avg-rx-rate-kbps>&amp;lt;NO STA&amp;gt;</avg-rx-rate-kbps>
+               <pkts-drop>427</pkts-drop>
+               <pkts-error>427</pkts-error>
+               <rx-error>0</rx-error>
+               <rx-dropped>0</rx-dropped>
+               <tx-failures>427</tx-failures>
+               <tx-dropped>427</tx-dropped>
+               <host-discard>0</host-discard>
+               <rx-MIC-errors>0</rx-MIC-errors>
+               <last-tx-rate-uni-pkts>0</last-tx-rate-uni-pkts>
+               <last-tx-rate-uni-pkts-mcs>0</last-tx-rate-uni-pkts-mcs>
+               <last-tx-rate-multi-pkts>0</last-tx-rate-multi-pkts>
+            </wifi-vap-stats>
+         </wifi>
+      </cm>
+      <netopeer xmlns="urn: cesnet: tmc: netopeer: 1.0">
+         <modules>
+            <module>
+               <name>cm</name>
+               <enabled>true</enabled>
+            </module>
+         </modules>
+         <ssh>
+            <client-auth-keys>
+               <client-auth-key>
+                  <path>/nvram/p3/jfa/rootfs/etc/.ssh/authorized_keys</path>
+                  <username>root</username>
+               </client-auth-key>
+            </client-auth-keys>
+         </ssh>
+      </netopeer>
+      <netconf-state xmlns="urn: ietf: params: xml: ns: yang: ietf-netconf-monitoring">
+         <capabilities>
+            <capability>urn:ietf:params:netconf:base:1.0</capability>
+            <capability>urn:ietf:params:netconf:base:1.1</capability>
+            <capability>urn:ietf:params:netconf:capability:writable-running:1.0</capability>
+            <capability>urn:ietf:params:netconf:capability:candidate:1.0</capability>
+            <capability>urn:ietf:params:netconf:capability:startup:1.0</capability>
+            <capability>urn:ietf:params:netconf:capability:rollback-on-error:1.0</capability>
+            <capability>urn:ietf:params:netconf:capability:interleave:1.0</capability>
+            <capability>urn:ietf:params:netconf:capability:notification:1.0</capability>
+            <capability>urn:ietf:params:netconf:capability:validate:1.0</capability>
+            <capability>urn:ietf:params:netconf:capability:validate:1.1</capability>
+            <capability>urn:ietf:params:netconf:capability:with-defaults:1.0?basic-mode=explicit&amp;also-supported=report-all,report-all-tagged,trim,explicit</capability>
+            <capability>urn:sanctum:params:xml:ns:yang:cm?module=cm&amp;revision=2015-12-18</capability>
+            <capability>urn:cesnet:tmc:netopeer:1.0?module=netopeer-cfgnetopeer&amp;revision=2015-05-19&amp;features=ssh,dynamic-modules</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-netconf-server?module=ietf-netconf-server&amp;revision=2014-01-24&amp;features=ssh,inbound-ssh,outbound-ssh</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name?module=ietf-x509-cert-to-name&amp;revision=2013-03-26</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-netconf-acm?module=ietf-netconf-acm&amp;revision=2012-02-22</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults?module=ietf-netconf-with-defaults&amp;revision=2010-06-09</capability>
+            <capability>urn:ietf:params:xml:ns:netconf:notification:1.0?module=notifications&amp;revision=2008-07-14</capability>
+            <capability>urn:ietf:params:xml:ns:netmod:notification?module=nc-notifications&amp;revision=2008-07-14</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-netconf-notifications?module=ietf-netconf-notifications&amp;revision=2012-02-06</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring?module=ietf-netconf-monitoring&amp;revision=2010-10-04</capability>
+            <capability>urn:ietf:params:xml:ns:netconf:base:1.0?module=ietf-netconf&amp;revision=2011-03-08&amp;features=writable-running,candidate,rollback-on-error,validate,startup</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-yang-types?module=ietf-yang-types&amp;revision=2013-07-15</capability>
+            <capability>urn:ietf:params:xml:ns:yang:ietf-inet-types?module=ietf-inet-types&amp;revision=2013-07-15</capability>
+         </capabilities>
+         <datastores>
+            <datastore>
+               <name>running</name>
+            </datastore>
+            <datastore>
+               <name>startup</name>
+            </datastore>
+            <datastore>
+               <name>candidate</name>
+            </datastore>
+         </datastores>
+         <sessions>
+            <session>
+               <session-id>96</session-id>
+               <transport>netconf-ssh</transport>
+               <username>root</username>
+               <source-host>UNKN}</source-host>
+               <login-time>0000-01-01T00:00:00Z</login-time>
+               <in-rpcs>36</in-rpcs>
+               <in-bad-rpcs>0</in-bad-rpcs>
+               <out-rpc-errors>0</out-rpc-errors>
+               <out-notifications>6</out-notifications>
+            </session>
+            <session>
+               <session-id>97</session-id>
+               <transport>netconf-ssh</transport>
+               <username>root</username>
+               <source-host>UNKN}</source-host>
+               <login-time>0000-01-01T00:00:00Z</login-time>
+               <in-rpcs>12</in-rpcs>
+               <in-bad-rpcs>0</in-bad-rpcs>
+               <out-rpc-errors>0</out-rpc-errors>
+               <out-notifications>5</out-notifications>
+            </session>
+            <session>
+               <session-id>98</session-id>
+               <transport>netconf-ssh</transport>
+               <username>root</username>
+               <source-host>UNKN}</source-host>
+               <login-time>0000-01-01T00:00:00Z</login-time>
+               <in-rpcs>9</in-rpcs>
+               <in-bad-rpcs>0</in-bad-rpcs>
+               <out-rpc-errors>0</out-rpc-errors>
+               <out-notifications>4</out-notifications>
+            </session>
+            <session>
+               <session-id>99</session-id>
+               <transport>netconf-ssh</transport>
+               <username>root</username>
+               <source-host>UNKN}</source-host>
+               <login-time>0000-01-01T00:00:00Z</login-time>
+               <in-rpcs>7</in-rpcs>
+               <in-bad-rpcs>0</in-bad-rpcs>
+               <out-rpc-errors>0</out-rpc-errors>
+               <out-notifications>3</out-notifications>
+            </session>
+            <session>
+               <session-id>100</session-id>
+               <transport>netconf-ssh</transport>
+               <username>root</username>
+               <source-host>UNKNOWN</source-host>
+               <login-time>0000-01-01T00:00:00Z</login-time>
+               <in-rpcs>34</in-rpcs>
+               <in-bad-rpcs>0</in-bad-rpcs>
+               <out-rpc-errors>0</out-rpc-errors>
+               <out-notifications>1</out-notifications>
+            </session>
+         </sessions>
+         <schemas>
+            <schema>
+               <identifier>cm</identifier>
+               <version>2015-12-18</version>
+               <format>yin</format>
+               <namespace>urn:sanctum:params:xml:ns:yang:cm</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>cm</identifier>
+               <version>2015-12-18</version>
+               <format>yang</format>
+               <namespace>urn:sanctum:params:xml:ns:yang:cm</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>netopeer-cfgnetopeer</identifier>
+               <version>2015-05-19</version>
+               <format>yin</format>
+               <namespace>urn:cesnet:tmc:netopeer:1.0</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>netopeer-cfgnetopeer</identifier>
+               <version>2015-05-19</version>
+               <format>yang</format>
+               <namespace>urn:cesnet:tmc:netopeer:1.0</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-server</identifier>
+               <version>2014-01-24</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-server</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-server</identifier>
+               <version>2014-01-24</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-server</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-x509-cert-to-name</identifier>
+               <version>2013-03-26</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-x509-cert-to-name</identifier>
+               <version>2013-03-26</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-x509-cert-to-name</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-acm</identifier>
+               <version>2012-02-22</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-acm</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-acm</identifier>
+               <version>2012-02-22</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-acm</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-with-defaults</identifier>
+               <version>2010-06-09</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-with-defaults</identifier>
+               <version>2010-06-09</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>notifications</identifier>
+               <version>2008-07-14</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:netconf:notification:1.0</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>notifications</identifier>
+               <version>2008-07-14</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:netconf:notification:1.0</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>nc-notifications</identifier>
+               <version>2008-07-14</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:netmod:notification</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>nc-notifications</identifier>
+               <version>2008-07-14</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:netmod:notification</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-notifications</identifier>
+               <version>2012-02-06</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-notifications</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-notifications</identifier>
+               <version>2012-02-06</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-notifications</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-monitoring</identifier>
+               <version>2010-10-04</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf-monitoring</identifier>
+               <version>2010-10-04</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf</identifier>
+               <version>2011-03-08</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:netconf:base:1.0</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-netconf</identifier>
+               <version>2011-03-08</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:netconf:base:1.0</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-yang-types</identifier>
+               <version>2013-07-15</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-yang-types</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-yang-types</identifier>
+               <version>2013-07-15</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-yang-types</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-inet-types</identifier>
+               <version>2013-07-15</version>
+               <format>yin</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-inet-types</namespace>
+               <location>NETCONF</location>
+            </schema>
+            <schema>
+               <identifier>ietf-inet-types</identifier>
+               <version>2013-07-15</version>
+               <format>yang</format>
+               <namespace>urn:ietf:params:xml:ns:yang:ietf-inet-types</namespace>
+               <location>NETCONF</location>
+            </schema>
+         </schemas>
+         <statistics>
+            <netconf-start-time>2000-02-02T23:28:13Z</netconf-start-time>
+            <in-bad-hellos>0</in-bad-hellos>
+            <in-sessions>100</in-sessions>
+            <dropped-sessions>33</dropped-sessions>
+            <in-rpcs>602</in-rpcs>
+            <in-bad-rpcs>33</in-bad-rpcs>
+            <out-rpc-errors>0</out-rpc-errors>
+            <out-notifications>261</out-notifications>
+         </statistics>
+      </netconf-state>
+      <netconf xmlns="urn: ietf: params: xml: ns: netmod: notification">
+         <streams>
+            <stream>
+               <name>NETCONF</name>
+               <description>NETCONF Base Notifications</description>
+               <replaySupport>true</replaySupport>
+               <replayLogCreationTime>2016-04-13T14:16:17Z</replayLogCreationTime>
+            </stream>
+         </streams>
+      </netconf>
+      <nacm xmlns="urn: ietf: params: xml: ns: yang: ietf-netconf-acm">
+         <denied-operations>0</denied-operations>
+         <denied-data-writes>0</denied-data-writes>
+         <denied-notifications>0</denied-notifications>
+      </nacm>
+   </data>
+</rpc-reply>

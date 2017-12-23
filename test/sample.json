@@ -1,0 +1,539 @@
+{
+  "no": {
+    "production": {
+      "fields": {
+        "hardware_revision": {
+          "sample": "132",
+          "type": "int"
+        },
+        "serial": {
+          "sample": "D14C",
+          "type": "text"
+        },
+        "vendor": {
+          "sample": "Intel Corporation",
+          "type": "text"
+        },
+        "modem_lan_ip": {
+          "sample": "192.168.100.1",
+          "type": "text"
+        },
+        "modem_lan_mask": {
+          "sample": "255.255.255.0",
+          "type": "text"
+        },
+        "rf_mac_address": {
+          "sample": "00-50-F1-12-D1-4C",
+          "type": "text"
+        },
+        "lan_mac_address": {
+          "sample": "00-50-F1-10-D1-4C",
+          "type": "text"
+        },
+        "model_name": {
+          "sample": "16 - BOARD_CONFIG_PUMA6_MG_24DS_MXL267",
+          "type": "text"
+        },
+        "software_version": {
+          "sample": "NA",
+          "type": "text"
+        }
+      },
+      "primaryKey": [
+        "hardware_revision"
+      ]
+    },
+    "phystatus": {
+      "fields": {
+        "enabled": {
+          "sample": "YES",
+          "type": "text"
+        },
+        "frequency": {
+          "sample": "523.000000 MHz",
+          "type": "text"
+        },
+        "qam_mode": {
+          "sample": "256 QAM",
+          "type": "text"
+        },
+        "annex": {
+          "sample": [
+            "ANNEX-A (Euro)",
+            "I=12, J=17"
+          ],
+          "type": "text"
+        },
+        "mse": {
+          "sample": "-44.626 dB",
+          "type": "text"
+        },
+        "rf_agc": {
+          "sample": "0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )",
+          "type": "text"
+        },
+        "magc": {
+          "sample": "1.494",
+          "type": "text"
+        },
+        "fagc": {
+          "sample": "0.844",
+          "type": "text"
+        },
+        "cw_error_rate": {
+          "sample": "5.67e-07",
+          "type": "text"
+        },
+        "qam_lock": {
+          "sample": "YES",
+          "type": "text"
+        },
+        "fec_sync": {
+          "sample": "YES",
+          "type": "text"
+        },
+        "mpeg_sync": {
+          "sample": "YES",
+          "type": "text"
+        },
+        "carrier_offset": {
+          "sample": "7044.621 Hz",
+          "type": "text"
+        },
+        "timing_offset": {
+          "sample": "-17.45 ppm",
+          "type": "text"
+        },
+        "burst_counter": {
+          "sample": "86",
+          "type": "int"
+        },
+        "reported_power": {
+          "sample": "1.2000 dBmv",
+          "type": "text"
+        }
+      },
+      "primaryKey": [
+        "enabled"
+      ]
+    },
+    "version": {
+      "fields": {
+        "image_name": {
+          "sample": "dgwsdk_5.0.0.41-161117_ubfi.img",
+          "type": "text"
+        },
+        "image_version": {
+          "sample": "5.0.0.41",
+          "type": "text"
+        },
+        "image_date": {
+          "sample": "20161117110539",
+          "type": "int"
+        }
+      },
+      "primaryKey": [
+        "image_name"
+      ]
+    },
+    "devs": {
+      "fields": {
+        "rx_unicast_packets": {
+          "sample": "81831",
+          "type": "int"
+        },
+        "rx_broadcast_packets": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_multicast_packets": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_bytes": {
+          "sample": "90176895",
+          "type": "int"
+        },
+        "rx_discards": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_unicast_packets": {
+          "sample": "54642",
+          "type": "int"
+        },
+        "tx_broadcast_packets": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_multicast_packets": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_bytes": {
+          "sample": "5464435",
+          "type": "int"
+        },
+        "tx_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_discards": {
+          "sample": "0",
+          "type": "int"
+        }
+      },
+      "primaryKey": [
+        "rx_unicast_packets"
+      ]
+    },
+    "cpe_list": {
+      "fields": {
+        "mac_address": {
+          "sample": "f8:16:54:f3:67:4a",
+          "type": "text"
+        },
+        "ip_address": {
+          "sample": "192.168.2.10",
+          "type": "text"
+        },
+        "host_name": {
+          "sample": "sanctum-PC",
+          "type": "text"
+        }
+      },
+      "primaryKey": [
+        "mac_address"
+      ]
+    }
+  },
+  "wifi": {
+    "access_point": {
+      "fields": {
+        "ssid": {
+          "sample": "SANCTUM_21_2",
+          "type": "text"
+        },
+        "frequency": {
+          "sample": "5.745 GHz",
+          "type": "text"
+        },
+        "mac_address": {
+          "sample": "00:03:7F:44:69:CB",
+          "type": "text"
+        },
+        "bit_rate": {
+          "sample": "216.7 Mb/s",
+          "type": "text"
+        },
+        "noise": {
+          "sample": "-95 dBm",
+          "type": "text"
+        }
+      },
+      "primaryKey": [
+        "ssid"
+      ]
+    },
+    "neighbor": {
+      "fields": {
+        "mac_address": {
+          "sample": "00:03:7F:40:0C:51",
+          "type": "text"
+        },
+        "ssid": {
+          "sample": "SANCTUM_21_5",
+          "type": "text"
+        },
+        "frequency": {
+          "sample": "5.2 GHz",
+          "type": "text"
+        },
+        "signal": {
+          "sample": "-9 dBm",
+          "type": "text"
+        },
+        "noise": {
+          "sample": "-95 dBm",
+          "type": "text"
+        }
+      },
+      "primaryKey": [
+        "mac_address"
+      ]
+    },
+    "radio_stats": {
+      "fields": {
+        "wifi_eth_name": {
+          "sample": "wifi0",
+          "type": "text"
+        },
+        "mac_ap": {
+          "sample": "00:03:7F:44:69:CB",
+          "type": "text"
+        },
+        "tx_data_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_data_bytes": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_data_pkts": {
+          "sample": "1446",
+          "type": "int"
+        },
+        "rx_data_bytes": {
+          "sample": "102386",
+          "type": "int"
+        },
+        "tx_uni_data_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_mul_broad_data_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "channel_utilization": {
+          "sample": "&lt;DISABLED&gt;",
+          "type": "text"
+        },
+        "tx_beacon_frame": {
+          "sample": "1582195",
+          "type": "int"
+        },
+        "tx_mgmt_frames": {
+          "sample": "1592255",
+          "type": "int"
+        },
+        "rx_mgmt_frames": {
+          "sample": "31310",
+          "type": "int"
+        },
+        "rx_rssi": {
+          "sample": "43",
+          "type": "int"
+        },
+        "rx_phy_errors": {
+          "sample": "1336",
+          "type": "int"
+        },
+        "rx_crc_errors": {
+          "sample": "83639",
+          "type": "int"
+        },
+        "rx_mic_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_decrypt_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_failures": {
+          "sample": "294",
+          "type": "int"
+        },
+        "throughput_kbps": {
+          "sample": "&lt;DISABLED&gt;",
+          "type": "text"
+        },
+        "pkt_error_rate": {
+          "sample": "&lt;DISABLED&gt;",
+          "type": "text"
+        },
+        "total_pkt_error_rate": {
+          "sample": "0",
+          "type": "int"
+        }
+      },
+      "primaryKey": [
+        "wifi_eth_name"
+      ]
+    },
+    "vap_stats": {
+      "fields": {
+        "ath_name": {
+          "sample": "ath0",
+          "type": "text"
+        },
+        "mac_ap": {
+          "sample": "00:03:7F:44:69:CB",
+          "type": "text"
+        },
+        "tx_data_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_data_bytes": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_data_pkts": {
+          "sample": "1446",
+          "type": "int"
+        },
+        "rx_data_bytes": {
+          "sample": "102386",
+          "type": "int"
+        },
+        "tx_uni_data_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_uni_data_pkts": {
+          "sample": "1436",
+          "type": "int"
+        },
+        "tx_mul_broad_data_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_mul_broad_data_pkts": {
+          "sample": "10",
+          "type": "int"
+        },
+        "avg_tx_rate_kbps": {
+          "sample": "0",
+          "type": "int"
+        },
+        "avg_rx_rate_kbps": {
+          "sample": "24697",
+          "type": "int"
+        },
+        "pkts_drop": {
+          "sample": "292",
+          "type": "int"
+        },
+        "pkts_error": {
+          "sample": "292",
+          "type": "int"
+        },
+        "rx_error": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_dropped": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_failures": {
+          "sample": "292",
+          "type": "int"
+        },
+        "tx_dropped": {
+          "sample": "292",
+          "type": "int"
+        },
+        "host_discard": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_MIC_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "last_tx_rate_uni_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "last_tx_rate_uni_pkts_mcs": {
+          "sample": "0",
+          "type": "int"
+        },
+        "last_tx_rate_multi_pkts": {
+          "sample": "0",
+          "type": "int"
+        }
+      },
+      "primaryKey": [
+        "ath_name"
+      ]
+    },
+    "device_stats": {
+      "fields": {
+        "mac_address": {
+          "sample": "ac:5f:3e:02:e9:07",
+          "type": "text"
+        },
+        "mac_ap": {
+          "sample": "00:03:7F:44:69:CB",
+          "type": "text"
+        },
+        "tx_data_pkts": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_data_bytes": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_data_pkts": {
+          "sample": "1446",
+          "type": "int"
+        },
+        "rx_data_bytes": {
+          "sample": "102386",
+          "type": "int"
+        },
+        "tx_uni_data_pkts": {
+          "sample": "452",
+          "type": "int"
+        },
+        "avg_tx_rate_kbps": {
+          "sample": "0",
+          "type": "int"
+        },
+        "avg_rx_rate_kbps": {
+          "sample": "24697",
+          "type": "int"
+        },
+        "last_tx_rate": {
+          "sample": "0",
+          "type": "int"
+        },
+        "last_rx_rate": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_mic_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_decrypt_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_errors": {
+          "sample": "0",
+          "type": "int"
+        },
+        "pkts_queued": {
+          "sample": "0",
+          "type": "int"
+        },
+        "host_discard": {
+          "sample": "0",
+          "type": "int"
+        },
+        "tx_failures": {
+          "sample": "0",
+          "type": "int"
+        },
+        "rx_rssi": {
+          "sample": "34",
+          "type": "int"
+        }
+      },
+      "primaryKey": [
+        "mac_address"
+      ]
+    }
+  }
+}

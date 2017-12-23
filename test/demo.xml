@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <no>
+        <production>
+            <hardware-revision>132</hardware-revision>
+            <serial>D14C</serial>
+            <vendor>Intel Corporation</vendor>
+            <modem-lan-ip>192.168.100.1</modem-lan-ip>
+            <modem-lan-mask>255.255.255.0</modem-lan-mask>
+            <rf-mac-address>00-50-F1-12-D1-4C</rf-mac-address>
+            <lan-mac-address>00-50-F1-10-D1-4C</lan-mac-address>
+            <model-name>16 - BOARD_CONFIG_PUMA6_MG_24DS_MXL267</model-name>
+            <software-version>NA</software-version>
+        </production>
+        <phystatus>
+            <enabled>YES</enabled>
+            <frequency>523.000000 MHz</frequency>
+            <qam-mode>256 QAM</qam-mode>
+            <annex>ANNEX-A (Euro)</annex>
+            <mse>-44.626 dB</mse>
+            <rf-agc>0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )</rf-agc>
+            <magc>1.494</magc>
+            <fagc>0.844</fagc>
+            <annex>I=12, J=17</annex>
+            <cw-error-rate>5.67e-07</cw-error-rate>
+            <qam-lock>YES</qam-lock>
+            <fec-sync>YES</fec-sync>
+            <mpeg-sync>YES</mpeg-sync>
+            <carrier-offset>7044.621 Hz</carrier-offset>
+            <timing-offset>-17.45 ppm</timing-offset>
+            <burst-counter>86</burst-counter>
+            <reported-power>1.2000 dBmv</reported-power>
+        </phystatus>
+        <version>
+            <image-name>dgwsdk_5.0.0.41-161117_ubfi.img</image-name>
+            <image-version>5.0.0.41</image-version>
+            <image-date>20161117110539</image-date>
+        </version>
+        <devs>
+            <rx-unicast-packets>81831</rx-unicast-packets>
+            <rx-broadcast-packets>0</rx-broadcast-packets>
+            <rx-multicast-packets>0</rx-multicast-packets>
+            <rx-bytes>90176895</rx-bytes>
+            <rx-discards>0</rx-discards>
+            <tx-unicast-packets>54642</tx-unicast-packets>
+            <tx-broadcast-packets>0</tx-broadcast-packets>
+            <tx-multicast-packets>0</tx-multicast-packets>
+            <tx-bytes>5464435</tx-bytes>
+            <tx-errors>0</tx-errors>
+            <tx-discards>0</tx-discards>
+        </devs>
+        <cpe-list>
+            <mac-address>f8:16:54:f3:67:4a</mac-address>
+            <ip-address>192.168.2.10</ip-address>
+            <host-name>sanctum-PC</host-name>
+        </cpe-list>
+    </no>
+    <wifi>
+        <access-point>
+            <ssid>SANCTUM_21_2</ssid>
+            <frequency>5.745 GHz</frequency>
+            <mac-address>00:03:7F:44:69:CB</mac-address>
+            <bit-rate>216.7 Mb/s</bit-rate>
+            <noise>-95 dBm</noise>
+        </access-point>
+        <neighbor>
+            <mac-address>00:03:7F:40:0C:51</mac-address>
+            <ssid>SANCTUM_21_5</ssid>
+            <frequency>5.2 GHz</frequency>
+            <signal>-9 dBm</signal>
+            <noise>-95 dBm</noise>
+        </neighbor>
+        <radio-stats>
+            <wifi-eth-name>wifi0</wifi-eth-name>
+            <mac-ap>00:03:7F:44:69:CB</mac-ap>
+            <tx-data-pkts>0</tx-data-pkts>
+            <tx-data-bytes>0</tx-data-bytes>
+            <rx-data-pkts>1446</rx-data-pkts>
+            <rx-data-bytes>102386</rx-data-bytes>
+            <tx-uni-data-pkts>0</tx-uni-data-pkts>
+            <tx-mul-broad-data-pkts>0</tx-mul-broad-data-pkts>
+            <channel-utilization>&amp;lt;DISABLED&amp;gt;</channel-utilization>
+            <tx-beacon-frame>1582195</tx-beacon-frame>
+            <tx-mgmt-frames>1592255</tx-mgmt-frames>
+            <rx-mgmt-frames>31310</rx-mgmt-frames>
+            <rx-rssi>43</rx-rssi>
+            <rx-phy-errors>1336</rx-phy-errors>
+            <rx-crc-errors>83639</rx-crc-errors>
+            <rx-mic-errors>0</rx-mic-errors>
+            <tx-decrypt-errors>0</tx-decrypt-errors>
+            <rx-errors>0</rx-errors>
+            <tx-failures>294</tx-failures>
+            <throughput-kbps>&amp;lt;DISABLED&amp;gt;</throughput-kbps>
+            <pkt-error-rate>&amp;lt;DISABLED&amp;gt;</pkt-error-rate>
+            <total-pkt-error-rate>0</total-pkt-error-rate>
+        </radio-stats>
+        <vap-stats>
+            <ath-name>ath0</ath-name>
+            <mac-ap>00:03:7F:44:69:CB</mac-ap>
+            <tx-data-pkts>0</tx-data-pkts>
+            <tx-data-bytes>0</tx-data-bytes>
+            <rx-data-pkts>1446</rx-data-pkts>
+            <rx-data-bytes>102386</rx-data-bytes>
+            <tx-uni-data-pkts>0</tx-uni-data-pkts>
+            <rx-uni-data-pkts>1436</rx-uni-data-pkts>
+            <tx-mul-broad-data-pkts>0</tx-mul-broad-data-pkts>
+            <rx-mul-broad-data-pkts>10</rx-mul-broad-data-pkts>
+            <avg-tx-rate-kbps>0</avg-tx-rate-kbps>
+            <avg-rx-rate-kbps>24697</avg-rx-rate-kbps>
+            <pkts-drop>292</pkts-drop>
+            <pkts-error>292</pkts-error>
+            <rx-error>0</rx-error>
+            <rx-dropped>0</rx-dropped>
+            <tx-failures>292</tx-failures>
+            <tx-dropped>292</tx-dropped>
+            <host-discard>0</host-discard>
+            <rx-MIC-errors>0</rx-MIC-errors>
+            <last-tx-rate-uni-pkts>0</last-tx-rate-uni-pkts>
+            <last-tx-rate-uni-pkts-mcs>0</last-tx-rate-uni-pkts-mcs>
+            <last-tx-rate-multi-pkts>0</last-tx-rate-multi-pkts>
+        </vap-stats>
+        <device-stats>
+            <mac-address>ac:5f:3e:02:e9:07</mac-address>
+            <mac-ap>00:03:7F:44:69:CB</mac-ap>
+            <tx-data-pkts>0</tx-data-pkts>
+            <tx-data-bytes>0</tx-data-bytes>
+            <rx-data-pkts>1446</rx-data-pkts>
+            <rx-data-bytes>102386</rx-data-bytes>
+            <tx-uni-data-pkts>452</tx-uni-data-pkts>
+            <avg-tx-rate-kbps>0</avg-tx-rate-kbps>
+            <avg-rx-rate-kbps>24697</avg-rx-rate-kbps>
+            <last-tx-rate>0</last-tx-rate>
+            <last-rx-rate>0</last-rx-rate>
+            <rx-mic-errors>0</rx-mic-errors>
+            <rx-decrypt-errors>0</rx-decrypt-errors>
+            <rx-errors>0</rx-errors>
+            <pkts-queued>0</pkts-queued>
+            <host-discard>0</host-discard>
+            <tx-failures>0</tx-failures>
+            <rx-rssi>34</rx-rssi>
+        </device-stats>
+    </wifi>
+</data>

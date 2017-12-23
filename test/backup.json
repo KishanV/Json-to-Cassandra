@@ -1,0 +1,166 @@
+{
+  "":{
+    "production":{
+      "fileds":{
+        "hardware_revision":{ "sample":"132", "type":"text" },
+        "serial":{ "sample":"D14C", "type":"text" },
+        "vendor":{ "sample":"Intel Corporation", "type":"text" },
+        "modem_lan_ip":{ "sample":"192.168.100.1", "type":"text" },
+        "modem_lan_mask":{ "sample":"255.255.255.0", "type":"text" },
+        "rf_mac_address":{ "sample":"00-50-F1-12-D1-4C", "type":"text" },
+        "lan_mac_address":{ "sample":"00-50-F1-10-D1-4C", "type":"text" },
+        "model_name":{ "sample":"16 - BOARD_CONFIG_PUMA6_MG_24DS_MXL267", "type":"text" },
+        "software_version":{ "sample":"NA", "type":"text" }
+      },
+      "primaryKey":["vendor"]
+    },
+    "phystatus":{
+      "fileds":{
+        "enabled":{ "sample":"132", "type":"text" },
+        "frequency":{ "sample":"523.000000 MHz", "type":"text" },
+        "qam_mode":{ "sample":"256 QAM", "type":"text" },
+        "annex":{ "sample":"ANNEX-A (Euro)", "type":"text" },
+        "mse":{ "sample":"-44.626 dB", "type":"text" },
+        "rf_agc":{ "sample":"0.000 [dB]  ( ATTN = 0, RL = 0, DNC = 0 )", "type":"text" },
+        "magc":{ "sample":"1.494", "type":"text" },
+        "fagc":{ "sample":"0.844", "type":"text" },
+        "cw_error_rate":{ "sample":"5.67e-07", "type":"text" },
+        "qam_lock":{ "sample":"YES, J=17", "type":"text" },
+        "fec_sync":{ "sample":"YES", "type":"text" },
+        "mpeg_sync":{ "sample":"YES", "type":"text" },
+        "timing_offset":{ "sample":"-17.45 ppm", "type":"text" },
+        "carrier_offset":{ "sample":"7044.621 Hz", "type":"text" },
+        "burst_counter":{ "sample":"86", "type":"text" },
+        "reported_power":{ "sample":"1.2000 dBmv", "type":"text" }
+      },
+      "primaryKey":["enabled"]
+    },
+    "version":{
+      "fields":{
+        "image-name":{ "sample":"dgwsdk_5.0.0.41-161117_ubfi.img", "type":"text" },
+        "image-version":{ "sample":"5.0.0.41", "type":"text" },
+        "image-date":{ "sample":"20161117110539", "type":"text" }
+      },
+      "primaryKey":["image-name"]
+    },
+    "devs":{
+      "fields":{
+        "rx-unicast-packets":{ "sample":"81831", "type":"text" },
+        "rx-broadcast-packets":{ "sample":"0", "type":"text" },
+        "rx-multicast-packets":{ "sample":"0", "type":"text" },
+        "rx-bytes":{ "sample":"90176895", "type":"text" },
+        "rx-discards":{ "sample":"0", "type":"text" },
+        "tx-unicast-packets":{ "sample":"54642", "type":"text" },
+        "tx-broadcast-packets":{ "sample":"20161117110539", "type":"text" },
+        "tx-bytes":{ "sample":"0", "type":"text" },
+        "tx-errors":{ "sample":"0", "type":"text" },
+        "tx-discards":{ "sample":"0", "type":"text" }
+      },
+      "primaryKey":["image-name"]
+    }
+  },
+  "wifi":{
+    "access_point":{
+      "fields":{
+        "ssid":{ "sample":"81831", "type":"text" },
+        "frequency":{ "sample":"0", "type":"text" },
+        "mac_address":{ "sample":"0", "type":"text" },
+        "bit_rate":{ "sample":"90176895", "type":"text" },
+        "noise":{ "sample":"0", "type":"text" }
+      },
+      "primaryKey":["mac-address"]
+    },
+    "neighbor":{
+      "fields":{
+        "mac-address":{ "sample":"00:03:7F:40:0C:51", "type":"text" },
+        "ssid":{ "sample":"SANCTUM_21_5", "type":"text" },
+        "frequency":{ "sample":"5.2 GHz", "type":"text" },
+        "signal":{ "sample":"-9 dBm", "type":"text" },
+        "noise":{ "sample":"-95 dBm", "type":"text" }
+      },
+      "primaryKey":["mac-address"]
+    },
+    "radio_stats":{
+      "fields":{
+        "wifi-eth-name":{ "sample":"wifi0", "type":"text" },
+        "mac-ap":{ "sample":"00:03:7F:44:69:CB", "type":"text" },
+        "tx-data-pkts":{ "sample":"0", "type":"text" },
+        "tx-data-bytes":{ "sample":"0", "type":"text" },
+        "rx-data-pkts":{ "sample":"1446", "type":"text" },
+        "tx-uni-data-pkts":{ "sample":"102386", "type":"text" },
+        "tx-mul-broad-data-pkts":{ "sample":"0", "type":"text" },
+        "channel-utilization":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "tx-beacon-frame":{ "sample":"1582195", "type":"text" },
+        "rx-data-bytes":{ "sample":"1592255", "type":"text" },
+        "rx-mgmt-frames":{ "sample":"31310", "type":"text" },
+        "rx-rssi":{ "sample":"43", "type":"text" },
+        "rx-phy-errors":{ "sample":"1336", "type":"text" },
+        "rx-crc-errors":{ "sample":"83639", "type":"text" },
+        "rx-mic-errors":{ "sample":"0", "type":"text" },
+        "tx-decrypt-errors":{ "sample":"0", "type":"text" },
+        "rx-errors":{ "sample":"0", "type":"text" },
+        "tx-failures":{ "sample":"0", "type":"text" },
+        "rx-errors":{ "sample":"294", "type":"text" },
+        "throughput-kbps":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "pkt-error-rate":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "total-pkt-error-rate":{ "sample":"0", "type":"text" }
+      },
+      "primaryKey":["mac-address"]
+    },"vap-stats":{
+      "fields":{
+        "ath-name":{ "sample":"wifi0", "type":"text" },
+        "mac-ap":{ "sample":"00:03:7F:44:69:CB", "type":"text" },
+        "tx-data-pkts":{ "sample":"0", "type":"text" },
+        "tx-data-bytes":{ "sample":"0", "type":"text" },
+        "rx-data-pkts":{ "sample":"1446", "type":"text" },
+        "rx-data-bytes":{ "sample":"102386", "type":"text" },
+        "tx-uni-data-pkts":{ "sample":"0", "type":"text" },
+        "rx-uni-data-pkts":{ "sample":"0", "type":"text" },
+        "tx-mul-broad-data-pkt":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "rx-mul-broad-data-pkts":{ "sample":"1582195", "type":"text" },
+        "avg-tx-rate-kbps":{ "sample":"1592255", "type":"text" },
+        "avg-rx-rate-kbps":{ "sample":"31310", "type":"text" },
+        "pkts-drop":{ "sample":"43", "type":"text" },
+        "pkts-error":{ "sample":"1336", "type":"text" },
+        "rx-error":{ "sample":"83639", "type":"text" },
+        "rx-dropped":{ "sample":"0", "type":"text" },
+        "tx-failures":{ "sample":"0", "type":"text" },
+        "tx-dropped":{ "sample":"0", "type":"text" },
+        "tx-failures":{ "sample":"0", "type":"text" },
+        "host-discard":{ "sample":"294", "type":"text" },
+        "rx-MIC-errors":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "last-tx-rate-uni-pkts":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "last-tx-rate-uni-pkts-mcs":{ "sample":"0", "type":"text" },
+        "last-tx-rate-multi-pkts":{ "sample":"0", "type":"text" }
+      },
+      "primaryKey":["mac-ap"]
+    },
+    "device-stats":{
+      "fields":{
+        "mac-address":{ "sample":"wifi0", "type":"text" },
+        "mac-ap":{ "sample":"00:03:7F:44:69:CB", "type":"text" },
+        "tx-data-pkts":{ "sample":"0", "type":"text" },
+        "tx-data-bytes":{ "sample":"0", "type":"text" },
+        "rx-data-pkts":{ "sample":"1446", "type":"text" },
+        "rx-data-bytes":{ "sample":"102386", "type":"text" },
+        "tx-uni-data-pkts":{ "sample":"0", "type":"text" },
+        "rx-uni-data-pkts":{ "sample":"0", "type":"text" },
+        "avg-tx-rate-kbps":{ "sample":"1592255", "type":"text" },
+        "avg-rx-rate-kbps":{ "sample":"31310", "type":"text" },
+        "last-tx-rate":{ "sample":"43", "type":"text" },
+        "last-rx-rate":{ "sample":"1336", "type":"text" },
+        "rx-mic-errors":{ "sample":"83639", "type":"text" },
+        "rx-decrypt-errors":{ "sample":"0", "type":"text" },
+        "pkts-queued":{ "sample":"0", "type":"text" },
+        "host-discard":{ "sample":"0", "type":"text" },
+        "tx-failures":{ "sample":"0", "type":"text" },
+        "host-discard":{ "sample":"294", "type":"text" },
+        "tx-failures":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "last-tx-rate-uni-pkts":{ "sample":"&amp;lt;DISABLED&amp;gt;", "type":"text" },
+        "last-tx-rate-uni-pkts-mcs":{ "sample":"0", "type":"text" },
+        "last-tx-rate-multi-pkts":{ "sample":"0", "type":"text" }
+      },
+      "primaryKey":["mac-ap"]
+    }
+  }
+}

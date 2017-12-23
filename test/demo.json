@@ -1,0 +1,14 @@
+{
+  "tableName":{
+    "id":{
+      "a":{
+        "inside":"GOT"
+      },
+      "b":"I am B"
+    },
+    "email:":{}
+  }
+}
+
+
+//json.tableName.id.b
